@@ -20,20 +20,20 @@ Fig. 18. Building details delineated in Shanghai. (a) Urban functional types ass
 
 # Availability
 
-1. We developed MT-BR using Python 3.9 and MMdetection 2.28.1. The primary codes can be found in the __Code__ folder. The MMdetection framework is comprehensive; we modified and supplemented codes to realize MT-BR. Please focus on the following scripts:
+1. We developed MT-BR using Python 3.9 and MMdetection 2.28.1. The primary codes can be found in the __Code__ folder. The MMdetection framework is comprehensive; we modified and supplemented codes to realize MT-BR. Please focus on the following modified scripts:
    - mmdet/models/roi_heads/bbox_heads/multiple_bbox_head.py
    - mmdet/models/roi_heads/bbox_heads/multiple_bbox_head_allfc.py
-   - mmdet/models/roi_heads/bbox_heads/__init__.py
+   - mmdet/models/roi_heads/bbox_heads/\__init__.py
    - mmdet/models/roi_heads/multiple_roi_head.py
-   - mmdet/models/roi_heads/__init__.py
+   - mmdet/models/roi_heads/\__init__.py
    - mmdet/models/roi_heads/test_mixins.py
-   - mmdet/models/roi_heads/mask_heads/__init__.py
+   - mmdet/models/roi_heads/mask_heads/\__init__.py
    - mmdet/models/roi_heads/mask_heads/multitask_fcn_mask_head.py
    - mmdet/core/post_processing/bbox_nms.py
-   - mmdet/core/post_processing/__init__.py
+   - mmdet/core/post_processing/\__init__.py
    - mmdet/core/post_processing/merge_augs.py
    - mmdet/core/bbox/assigners/max_iou_assigner.py
-   - mmdet/datasets/api_wrappers/__init__.py
+   - mmdet/datasets/api_wrappers/\__init__.py
    - mmdet/datasets/api_wrappers/coco_multitask.py
    - mmdet/datasets/api_wrappers/coco_api.py
    - pycocotools/coco.py
