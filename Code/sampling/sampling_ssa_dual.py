@@ -118,7 +118,7 @@ class SpatialSimulatedAnnealing:
         axes[0].scatter(np.array(self.best_scores)[:, 0], np.array(self.best_scores)[:, 1], c='r')
         axes[0].set_xlabel('Iteration')
         axes[0].set_ylabel('Cost')
-        axes[0].set_title('Cost Hill curve')
+        axes[0].set_title('Cost MUL curve')
 
         axes[1].plot(range(len(self.scores)), np.array(self.scores)[:, 1])
         axes[1].scatter(np.array(self.best_scores)[:, 0], np.array(self.best_scores)[:, 2], c='r')
